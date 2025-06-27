@@ -13,7 +13,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "goatcounter",
+      websiteId: "ambrose",
     },
     locale: "en-US",
     baseUrl: "blog.ambrose.cvetkins.space",
