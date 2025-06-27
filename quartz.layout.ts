@@ -41,10 +41,10 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.RecentNotes({
+    Component.DesktopOnly(Component.RecentNotes({
         title: "Recent Posts",
         showTags: false,
-    }),
+    })),
     Component.Explorer({title: "Archive",}),
   ],
   right: [
@@ -69,7 +69,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({title: "Archive",}),
   ],
   right: [],
 }
