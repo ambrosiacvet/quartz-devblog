@@ -5,7 +5,6 @@ draft: "true"
 tags:
   - Aura
   - GAS
-aliases:
 ---
 
 | Info                |                                                            |
