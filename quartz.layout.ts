@@ -12,7 +12,7 @@ export const sharedPageComponents: SharedLayout = {
       Portfolio: "https://ambrose.cvetkins.space",
       LinkedIn: "https://www.linkedin.com/in/ambrose-hawkins",
       Bluesky: "https://bsky.app/profile/ambrosiacvet.bsky.social",
-      RSS: "https://blog.ambrose.cvetkins.space/index.xml
+      RSS: "https://blog.ambrose.cvetkins.space/index.xml",
     },
   }),
 }
