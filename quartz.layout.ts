@@ -8,8 +8,10 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/ambrosiacvet",
+      Portfolio: "https://ambrose.cvetkins.space",
+      LinkedIn: "https://www.linkedin.com/in/ambrose-hawkins",
+      Bluesky: "https://bsky.app/profile/ambrosiacvet.bsky.social",
     },
   }),
 }
@@ -38,7 +40,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.RecentNotes({
+        title: "Recent Posts",
+        showTags: false,
+    }),
+    Component.Explorer({title: "Archive",}),
   ],
   right: [
     Component.Graph(),
