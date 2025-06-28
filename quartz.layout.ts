@@ -31,7 +31,7 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.Flex({
         components: [
-            { Component: Component.PageTitle(), grow: true, align: "stretch", },
+            { Component: Component.PageTitle(), grow: true, align: "center", },
             { Component: Component.MobileOnly(Component.Spacer()) },
             { Component: Component.Flex({
               components: [
