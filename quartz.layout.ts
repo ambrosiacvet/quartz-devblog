@@ -29,22 +29,28 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
+        components: [
+            { Component: Component.PageTitle(), grow: true, align: "stretch", },
+            { Component: Component.MobileOnly(Component.Spacer()) },
+            { Component: Component.Flex({
+              components: [
+                {
+                  Component: Component.Search(),
+                  grow: true,
+                },
+                { Component: Component.Darkmode() },
+                { Component: Component.ReaderMode() },
+              ],
+            }), align: "center", },
+            { 
+                Component: Component.DesktopOnly(Component.RecentNotes({
+                title: "Recent Posts",
+                showTags: false,
+            })), align: "start", },
+        ],
+        direction: "column",
     }),
-    Component.DesktopOnly(Component.RecentNotes({
-        title: "Recent Posts",
-        showTags: false,
-    })),
     Component.Explorer({title: "Archive",}),
   ],
   right: [
