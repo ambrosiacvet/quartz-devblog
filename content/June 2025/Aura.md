@@ -1,7 +1,7 @@
 ---
 title: Aura
-date: 2025-06-28
-draft: "true"
+date: 2025-06-29
+draft: "false"
 tags:
   - Aura
   - GAS
@@ -25,7 +25,7 @@ When I graduated from **Southern New Hampshire University** with a degree in *Ga
 
 That's not to say I knew *nothing*—far from it. I'd just spent 3 years developing in [[Unreal Engine]] and already had a solid foundation in C++. However, one of the downsides of a game programming–focused degree is that the curriculum will never really keep pace with the industry. Even if it somehow *could*, there just aren't enough teaching hours to learn every system that employers want to see on your resume (even for supposedly "entry-level" jobs... *sigh*).
 
-Which is why I enrolled in an [Udemy course](https://www.udemy.com/course/unreal-engine-5-gas-top-down-rpg) to help myself learn Unreal Engine's **Gameplay Ability System (GAS)** immediately upon graduating from university. And *boy*—am I glad that I did because this course has taught me about *so* much more than just GAS. I now understand the difference between [[dedicated]] and [[listen servers]] and can implement UI using both MVC and MVVM. 
+Which is why I enrolled in an [Udemy course](https://www.udemy.com/course/unreal-engine-5-gas-top-down-rpg) to help myself learn Unreal Engine's **Gameplay Ability System (GAS)** immediately upon graduating from university. And *boy*—am I glad that I did because this course has taught me about *so* much more than just GAS. I now understand the difference between [[dedicated and listen servers]] and can implement UI using both MVC and MVVM. 
 
 I'm still taking the course, so #Aura posts will document what I learn as I go along—the wins and any weirdness that pops up—but I already have ideas to improve and tweak the system after I'm finished, so I don't anticipate I'll ever be fully *done* with this project.
 ## Roadmap

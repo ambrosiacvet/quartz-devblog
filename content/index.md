@@ -11,3 +11,6 @@ I need somewhere to put down my ideas and thoughts *while* my projects are being
 Just like that, a blog is born.
 
 My goal is to post at least weekly from here.
+
+## Current Projects
+- [Aura](Aura.md)
