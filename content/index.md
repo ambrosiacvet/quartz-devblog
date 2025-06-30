@@ -14,3 +14,15 @@ My goal is to post at least weekly from here.
 
 ## Current Projects
 - [[June 2025/Aura|Aura]]
+- [[June 2025/IsoIdl|IsoIdl]]
+
+```mermaid
+gantt
+    dateFormat  MM-DD-YYYY
+    axisFormat  %b
+    tickInterval 1month
+
+	Aura       :active,     aura,         02-25-2025, 08-31-2025
+	IsoIdl      :active,     iso,          06-13-2025, 08-24-2025
+	
+```

@@ -109,10 +109,12 @@ gantt
     Spell Menu UI                  :active,   spellui,      06-10-2025, 07-10-2025
     Main Menu, Save, Checkpoints   :          mainui,       after boom, 10d
     Map Features                   :          map,          after mainui, 5d
+    Finish Course                  :milestone,fin,          after map, 1d
 
     section Post-Course Cleanup
     Refactor DamageText Colors     :          refactor1,    after map, 5d
     Hit Message Fix                :          refactor2,    after map, 5d
     Auto Attribute Info Parse      :          refactor3,    after map, 5d
+    Post to Portfolio              :milestone,post,         after refactor3, 1d
 
 ```
