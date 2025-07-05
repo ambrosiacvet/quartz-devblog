@@ -66,16 +66,16 @@ gantt
 	Office-melting Heatwave        :crit, done, heat,       after path, 5d
 
     section The Plugin
-    Setup VC                       :          vc,           07-01-2025, 1d
+    Setup VC                       :active,   vc,           07-05-2025, 1d
     Create Plugin                  :          plugin,       after vc, 1d
     Refactor Grid for C++          :crit,     refact,       after plugin, 14d
 	Develop BP Utilities           :          util,         after refact, 10d
 	Prepare for Release            :          prep,         after util, 4d
-	Research Fab Release           :active,   research,     07-01-2025, until releasep
+	Research Fab Release           :active,   research,     07-05-2025, until releasep
 	Release Plugin                 :milestone,releasep,     after prep, 1d
 
 	section Finish IsoIdl
-	Create Pawns                   :          pawn,         07-13-2025, until util
+	Create Pawns                   :          pawn,         07-17-2025, until util
 	Spawning and Movement          :          move,         after pawn, 5d
 	Action/UI                      :          ui,           after move, 5d
 	XP/Formation                   :          xp,           after releasep, 4d

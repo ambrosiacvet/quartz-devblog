@@ -22,7 +22,7 @@ gantt
     axisFormat  %b
     tickInterval 1month
 
-	Aura       :active,     aura,         02-25-2025, 08-31-2025
-	IsoIdl      :active,     iso,          06-13-2025, 08-24-2025
+	Aura       :active,     aura,         02-25-2025, 09-02-2025
+	IsoIdl      :active,     iso,          06-13-2025, 08-28-2025
 	
 ```

@@ -106,7 +106,7 @@ gantt
 
     section UI/UX
     Attribute Menu                 :done,     uimenu,       03-19-2025, 04-06-2025
-    Spell Menu UI                  :active,   spellui,      06-10-2025, 07-10-2025
+    Spell Menu UI                  :active,   spellui,      06-10-2025, 07-15-2025
     Main Menu, Save, Checkpoints   :          mainui,       after boom, 10d
     Map Features                   :          map,          after mainui, 5d
     Finish Course                  :milestone,fin,          after map, 1d
