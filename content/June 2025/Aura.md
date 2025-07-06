@@ -9,6 +9,7 @@ tags:
   - AI
   - Game
   - UE5
+  - Diversion
 ---
 
 | Info                |                                                            |
@@ -16,7 +17,7 @@ tags:
 | **Project Title**   | *Aura*                                                     |
 | **Project Type**    | *Game*                                                     |
 | **Engine**          | *UE 5.3.2*                                                 |
-| **Version Control** | *Diversion VC*                                             |
+| **Version Control** | [[July 2025/Diversion\| Diversion VC]]                     |
 | **Repository**      | [request read-only access](mailto:ambrosecvetko@gmail.com) |
 > [!info]
 > *Aura* is a top-down action RPG built with C++ in UE5, designed to learn some of the engine's more complex systems such as GAS, Replication, AI (BT/EQS), and UI architecture (MVC/MVVM).
