@@ -37,7 +37,7 @@ Despite a crazy confluence of events—raging allergies, a surprise job intervie
 Before I go any further, my first challenge is to do it all again, but in C++ this time. This is crucial to the well-being of both my mental health and the project. I simply *cannot* maintain a pathfinding system written entirely in Blueprints. And, since I want to use this system in the future after finishing <span style="font-variant:small-caps;">*IsoIdl*</span>, on a project that will definitely be using C++, it will be much easier to write it as a C++ UE Plugin.
 ## Roadmap
 > [!abstract]+ Port What I've Already Done To C++
->- [ ] Create Plugin
+>- [x] Create Plugin
 >- [ ] Transfer `BP_Grid`
 >- [ ] Transfer `BP_Pathfinding` (this should be made into an Actor component)
 
@@ -66,9 +66,9 @@ gantt
 	Office-melting Heatwave        :crit, done, heat,       after path, 5d
 
     section The Plugin
-    Setup VC                       :active,   vc,           07-05-2025, 1d
-    Create Plugin                  :          plugin,       after vc, 1d
-    Refactor Grid for C++          :crit,     refact,       after plugin, 14d
+    Setup VC                       :done,     vc,           07-05-2025, 1d
+    Create Plugin                  :done,     plugin,       after vc, 1d
+    Refactor Grid for C++          :crit, active, refact,       after plugin, 14d
 	Develop BP Utilities           :          util,         after refact, 10d
 	Prepare for Release            :          prep,         after util, 4d
 	Research Fab Release           :active,   research,     07-05-2025, until releasep
