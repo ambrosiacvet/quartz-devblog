@@ -64,7 +64,7 @@ I'm still taking the course, so #Aura posts will document what I learn as I go a
 
 > [!abstract]- UI / UX
 >- [x] Attribute Menu
->- [ ] Spell Menu
+>- [x] Spell Menu
 >- [ ] Main Menu
 >- [ ] Save System *(I've heard this is a cursed endeavor >.>)*
 >- [ ] Map stuff™
@@ -102,12 +102,12 @@ gantt
 
     section Spell System
     XP & Leveling                  :done,     spellsys,     05-30-2025, 06-07-2025
-    Spell Menu + Equip             :          menu,         after spellui, 5d
+    Spell Menu + Equip             :active,   menu,         after spellui, 5d
     Debuffs                        :          debuffs,      after menu, 3d
 
     section UI/UX
     Attribute Menu                 :done,     uimenu,       03-19-2025, 04-06-2025
-    Spell Menu UI                  :active,   spellui,      06-10-2025, 07-15-2025
+    Spell Menu UI                  :done,     spellui,      06-10-2025, 07-15-2025
     Main Menu, Save, Checkpoints   :          mainui,       after boom, 10d
     Map Features                   :          map,          after mainui, 5d
     Finish Course                  :milestone,fin,          after map, 1d
