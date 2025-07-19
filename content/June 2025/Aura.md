@@ -58,8 +58,8 @@ I'm still taking the course, so #Aura posts will document what I learn as I go a
 
 > [!abstract]- Spell System
 >- [x] Award spell points on level up
->- [ ] Spell Menu (skill trees)
->- [ ] Equip Abilities from Spell Menu
+>- [x] Spell Menu (skill trees)
+>- [x] Equip Abilities from Spell Menu
 >- [ ] Debuffs
 
 > [!abstract]- UI / UX
@@ -102,8 +102,8 @@ gantt
 
     section Spell System
     XP & Leveling                  :done,     spellsys,     05-30-2025, 06-07-2025
-    Spell Menu + Equip             :active,   menu,         after spellui, 5d
-    Debuffs                        :          debuffs,      after menu, 3d
+    Spell Menu + Equip             :done,     menu,         after spellui, 5d
+    Debuffs                        :active,   debuffs,      after menu, 3d
 
     section UI/UX
     Attribute Menu                 :done,     uimenu,       03-19-2025, 04-06-2025
