@@ -73,7 +73,9 @@ I'm still taking the course, so #Aura posts will document what I learn as I go a
 >- [ ] In function `GetColorBasedOnBlockandCrit` in `WBP_DamageText`, use bitmasks or enum and select node... anything but this mess:
 >![[Images/Pasted image 20250627013634.png]]
 >- [ ] Fix Hit Message code
+>- [ ] Redo Menu Widgets to use more appropriate layout (no more wrap boxes and spacers)
 >- [ ] Refactor mapping the tags to attributes (get rid of yucky map to function pointers and automate the population of `DA_AttributeInfo`)
+>- [ ] Make Debuff Damage a Scalable float so that it scales with ability level
 ### Timeline
 ```mermaid
 gantt
