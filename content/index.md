@@ -1,6 +1,6 @@
 ---
 title: The Impetus
-description: Welcome to Ambrose's devblog, where they will be waxing about all things UE5 and C++.
+description: Welcome to The Darkest Ambrose, where Ambrose will be waxing about all things UE5 and C++.
 date: 2025-06-26
 draft: "false"
 ---
