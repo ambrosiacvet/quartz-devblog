@@ -68,14 +68,14 @@ gantt
     section The Plugin
     Setup VC                       :done,     vc,           07-05-2025, 1d
     Create Plugin                  :done,     plugin,       after vc, 1d
-    Refactor Grid for C++          :crit, active, refact,       after plugin, 14d
+    Refactor Grid for C++          :crit, active, refact,       after plugin, 30d
 	Develop BP Utilities           :          util,         after refact, 10d
 	Prepare for Release            :          prep,         after util, 4d
 	Research Fab Release           :active,   research,     07-05-2025, until releasep
 	Release Plugin                 :milestone,releasep,     after prep, 1d
 
 	section Finish IsoIdl
-	Create Pawns                   :          pawn,         07-17-2025, until util
+	Create Pawns                   :          pawn,         08-01-2025, until util
 	Spawning and Movement          :          move,         after pawn, 5d
 	Action/UI                      :          ui,           after move, 5d
 	XP/Formation                   :          xp,           after releasep, 4d

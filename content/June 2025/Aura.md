@@ -105,7 +105,7 @@ gantt
     section Spell System
     XP & Leveling                  :done,     spellsys,     05-30-2025, 06-07-2025
     Spell Menu + Equip             :done,     menu,         after spellui, 5d
-    Debuffs                        :active,   debuffs,      after menu, 3d
+    Debuffs                        :active,   debuffs,      after menu, 4d
 
     section UI/UX
     Attribute Menu                 :done,     uimenu,       03-19-2025, 04-06-2025
